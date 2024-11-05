@@ -3,7 +3,7 @@ import { Text } from 'react-native';
 
 function App(): React.JSX.Element {
   return (
-   <Text>Hello World</Text>
+   <Text>Hello World!</Text>
   );
 }
 
