@@ -2,5 +2,10 @@
     "sonarlint.connectedMode.project": {
         "connectionId": "weeat-mobile",
         "projectKey": "DimiHk_WeEat"
-    }
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always",
+        "source.addMissingImports": "always" 
+    },
+    "editor.formatOnSave": false
 }
