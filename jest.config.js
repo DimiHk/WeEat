@@ -4,4 +4,5 @@ module.exports = {
     collectCoverageFrom: ['src/**/*.{js,jsx,ts,tsx}', '!**/node_modules/**'],
     coverageDirectory: './coverage',
     coverageReporters: ['lcov', 'text'],
+    testResultsProcessor: 'jest-sonar-reporter',
 }
