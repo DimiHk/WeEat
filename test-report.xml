@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\Dimi\Desktop\WeEat\__tests__\App.test.tsx">
+    <testCase name="renders correctly" duration="149"/>
+  </file>
+</testExecutions>

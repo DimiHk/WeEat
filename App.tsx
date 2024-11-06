@@ -1,10 +1,8 @@
-import React from 'react';
-import { Text } from 'react-native';
+import React from 'react'
+import Home from 'screens/Home'
 
 function App(): React.JSX.Element {
-  return (
-   <Text>Hello World!</Text>
-  );
+    return <Home />
 }
 
-export default App;
+export default App
