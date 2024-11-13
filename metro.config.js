@@ -1,12 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config')
 
-/**
- * Metro configuration
- * https://reactnative.dev/docs/metro
- *
- * @type {import('metro-config').MetroConfig}
- */
-const config = {}
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const {withNativeWind} = require('nativewind/metro')
 
-module.exports = mergeConfig(getDefaultConfig(__dirname), config)
+const config = mergeConfig(getDefaultConfig(__dirname), {})
+
+module.exports = withNativeWind(config, {input: './global.css'})

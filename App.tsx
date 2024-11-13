@@ -1,8 +1,14 @@
+import {Home} from '@screens/Home'
 import React from 'react'
-import Home from 'screens/Home'
+import './global.css'
+import {GluestackUIProvider} from '@components/ui/gluestack-ui-provider'
 
 function App(): React.JSX.Element {
-    return <Home />
+    return (
+        <GluestackUIProvider>
+            <Home />
+        </GluestackUIProvider>
+    )
 }
 
 export default App
